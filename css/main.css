@@ -23,7 +23,11 @@
     display: inline-block;
     margin: 0 10px;
 }
-#button .fas{
+#main-nav li a{
+    text-decoration: none;
+    color: black;
+}
+#button{
     visibility: hidden;
     cursor: pointer;
 }
@@ -57,6 +61,8 @@
 }
 .cards-content{
     margin: 20px;
+}
+.cards-content h3{ 
     text-align: center;
 }
 .cards-content p{
@@ -90,7 +96,7 @@
     #main-nav ul{
         display: none;
     }
-    #button .fas{
+    #button{
         visibility: visible;
     }
     .mobile-nav{
@@ -117,50 +123,6 @@
         margin: 20px;
     }
 }
-/* #logo{
-    line-height: 50px;
-    display:inline-block;
-    color:  #596c6f;
-    font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
-}
-#main-nav{
-    display:inline-block;
-    line-height: 50px;
-    width: 70%;
-} */
-
-
-/* .h2 {
-    width: 200px;
-    margin-top: 0%;
-    text-align: center;
-}
-#main-nav li{
-    list-style: none;
-    display: inline-block;
-}
-#main-nav li a{
-    text-decoration: none;
-    color: #92d5e9;
-    width: 50px;
-    padding: 10px;
-}
-#main-nav li a:hover{
-    border-radius: 20px;
-    background-color:#1d6b74;
-}
-#main-nav li a:active{
-    border-radius: 20px;
-    background-color:#e6fcff;
-}
-/* #main-nav ul{
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-} */
-
 #anthem{
     font-weight: 700;
     text-align: center;
